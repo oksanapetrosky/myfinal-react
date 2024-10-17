@@ -1,0 +1,531 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1rem;
+  margin: 0;
+ 
+ }
+ .link {
+  flex-wrap: wrap;
+  padding: 10px 40px;
+  text-decoration: none;
+  color: #ac325b;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+ } 
+ .banner {
+  display: flex;
+  justify-content: space-evenly;
+  /* padding: 10px; */
+  background: #ac325b;
+  font-weight: bold;
+  color: #fff;
+ }
+ .sectiontwo {
+  margin: 15px;
+ }
+.current {
+  opacity: 1;
+  transform: translateX(0);
+}
+.content {
+  position: absolute;
+  top: 23rem;
+  left: 5rem;
+  width: 40%;
+  padding: 3rem;
+}
+.current .content {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 0.5s ease;
+}
+ .cont { 
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+.change {
+  width: 20%;
+  color: #ac325b;
+  margin: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid #ac325b;
+  padding: 10px 20px;
+  font-size: 17px;
+  cursor: pointer;
+  font-weight: bold;
+  background: transparent;
+  position: relative;
+  transition: all 1s;
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+.change:hover {
+  color: #ac325b;
+  border: 2px solid #FFB1B1;
+}
+.change::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 0%;
+  top: 0;
+  left: -40px;
+  transform: skewX(45deg);
+  background-color: #FFB1B1;
+  z-index: -1;
+  transition: all 1s;
+}
+.change:hover::before {
+  width: 160%;
+}
+img {
+  flex-wrap: wrap;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  color: #ac325b;
+  font-family: "Montserrat", sans-serif;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-family: "Pinyon Script", cursive;
+  color: #ac325b;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+h4 {
+  font-size: 14px;
+  margin-left: 10px;
+}
+h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  color:  #ac325b;
+}
+ h1 {
+  font-family: "Pinyon Script", cursive;
+  font-size: 50px;
+  padding: 40px;
+  border-radius: 30px;
+  color:  #ac325b;
+  background-color: #F6D6D6;
+  opacity: 0;  
+  transform: translateY(100%); 
+  animation: slideUp 5s ease-in-out infinite;
+} 
+.prev, .next {
+  display: none;
+}
+.modal {
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.modalbtn {
+  width: 50%;
+  padding: 40px;
+  background-color: #F6D6D6;
+  border: 1px solid #6C0345;
+}
+
+.marginbanner {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+#specialOffer {
+  color: white;
+  width: 100%;
+  font-size: 40px;
+  text-align: center;
+}
+.btn1 {
+  padding: 15px;
+  width: 150%;
+  font-family: "Montserrat", sans-serif;
+  color: #6C0345;
+  border: 1px solid #6C0345;
+}
+.logo {
+  font-family: "Pinyon Script", cursive;
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: bolder;
+  color: #ac325b;
+}
+.products {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.product-card {
+  padding: 35px;
+}
+.--btn {
+  padding: 15px;
+  border-radius: 15px;
+  background-color:  #EECAD5;
+  color: #6C0345;
+}
+.buynow {
+   position: absolute;
+   margin-top: 380px;
+   margin-left: 40px;
+}
+.btn2 {
+  width: 180%;
+  padding: 20px;
+  opacity: 0.7;
+  border: none;
+  font-size: 18px;
+  background-color: #FFF5E1;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10px;
+  color: #6C0345;
+}
+.btn3 {
+  width: 40%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 100px;
+  border: 1px solid #6C0345;
+  font-size: 18px;
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
+  color: #6C0345;
+}
+.carousel {
+  padding: 30px;
+}
+.specialEvents {
+  display: flex;
+  justify-content: center;
+}
+ .center {
+  background-color: #fff;
+  padding: 10px;
+} 
+
+.relative {
+  background-color: #FFE6E6;
+}
+span, .mb-7, .mb-9, .text-base, .mb-1 {
+  font-family: "Montserrat", sans-serif;
+  color:  #ac325b;
+  font-weight: bolder;
+}
+
+.w-full1 {
+  background-color: #ac325b;
+  width: 100%;
+  border: none;
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  width: 450px; 
+  height: 500px; 
+}
+
+.zoom-image {
+  padding: 30px;
+  width: 450px;
+  height: auto;
+  object-fit: cover;
+  transition: transform 1s ease; 
+}
+.zoom-image:hover {
+  transform: scale(1.1); 
+}
+.imgSlides {
+  width: 100%;
+
+}  
+.home {
+  position: relative;
+}
+.router {
+  position: absolute;
+  top: 500px;
+  left: 50px;
+  opacity: 0.7;
+  border-radius: 10px;
+}
+.btnHome {
+  padding: 10px;
+ margin: 20px;
+  width: 50%;
+  border-radius: 10px;
+  border: 2px solid #FFDFD6;
+  font-family: "Pinyon Script", cursive;
+  font-size: 40px;
+  font-weight: bolder;
+  color: #FFDFD6;
+  transform: translateY(100%);
+  animation: slideUp 5s ease-in-out infinite;
+  opacity: 0;   
+  background: transparent;
+  position: relative;
+  transition: all 2s;
+  overflow: hidden;
+}
+.btnHome:hover {
+  color: #6C0345;
+  border: 2px solid #FFB1B1;
+}
+.btnHome::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 0%;
+  top: 0;
+  left: -40px;
+  transform: skewX(45deg);
+  background-color: #FFB1B1;
+  z-index: -1;
+  transition: all 2s;
+}
+.btnHome:hover::before {
+  width: 160%;
+}
+.btnHome:hover {
+  transform: scale(1.5);  
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); 
+} 
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);  
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}
+.slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+.star-rating {
+  display: flex;
+  direction: row-reverse;
+  justify-content: end;
+}
+.marginStar {
+ display: flex;
+ justify-content: space-between;
+}
+.star-rating input {
+  display: none;  
+}
+.star-rating .star {
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.accordion {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #ccc;
+}
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.accordion-header:hover {
+  background-color: #e0e0e0;
+}
+.accordion-content {
+  padding: 15px;
+  background-color: #ffffff;
+}
+.accordion-header h3 {
+  margin: 0;
+  font-size: 16px;
+}
+.accordion-header span {
+  font-size: 24px;
+}
+ .background {
+  text-align: center;
+  padding: 50px;
+ }
+
+.newsletter {
+  padding: 50px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin-bottom: 10px;
+  margin: 0 auto;
+}
+
+.newsletter h5 {
+  font-size: 30px;
+  margin-top: 10px;
+} 
+.newsletter form {
+  display: flex;
+  flex-direction: column;
+}  
+.newsletter input {
+  padding: 10px;
+  font-size: 1em;
+  max-width: 400px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.newsletter button {
+  padding: 15px;
+  margin: 10px;
+  background-color: #ac325b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+ .newsletter button:hover {
+  background-color: #E6739F;
+} 
+
+.newsletter p {
+  margin-top: 10px;
+  font-size: 0.9em;
+} 
+.AppMargin {
+  margin-top: 10px;
+}
+.sale {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  margin: 20px;
+  color: #ac325b;
+  font-family: "Pinyon Script", cursive;
+ }
+
+@media screen and (max-width: 600px) {
+  .content {
+    width: 30%;
+    visibility: visible;
+  }
+  .slide img {
+    width: 100%;
+    height: 100%;
+  }
+  nav {
+    font-size: 8px;
+  }
+h3 {
+ font-size: 10px;
+ font-weight: lighter;
+ }
+ .sale {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  color: #ac325b;
+  font-family: "Pinyon Script", cursive;
+ }
+.router {
+  top: 120px;
+  left: 20px;
+}
+.btnHome {
+  padding: 10px;
+  width: 50%;
+  font-size: 15px;
+  background-color: #6C0345;
+  border: none;
+}
+h1 {
+  font-size: 15px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+} 
+.cascade {
+  flex-wrap: wrap;
+}
+.imgSlides {
+  width: auto;
+  height: 400px;
+}
+.App {
+  width: 400px;
+  height: auto;
+}
+.prev, .next {
+  display: none;
+}
+h2, .logo {
+  font-size: 20px;
+}
+h3 {
+  margin-left: 10px;
+}
+.container {
+ margin: 0;
+
+ display: flex;
+ justify-content: center;
+}
+#imgSpecial {
+  margin-top: 0;
+  width: 330px;
+ }
+#slider-carousel {
+  height: 100%;
+}
+.cont {
+flex-wrap: wrap-reverse;
+}
+.change {
+  font-size: 10px;
+  width: 30%;
+}
+.collage .wedSeason {
+  font-size: 18px;
+  padding: 8px;
+}
+}
+
+
