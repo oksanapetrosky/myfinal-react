@@ -19,7 +19,7 @@ nav {
  .banner {
   display: flex;
   justify-content: space-evenly;
-  /* padding: 10px; */
+  padding: 10px;
   background: #ac325b;
   font-weight: bold;
   color: #fff;
