@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import ImageSlider from "./Carousel";
 import Newsletter from "./NewsLetter";
 import Footer from "./Footer";
-
+import Accordion from './Accordion'; 
 
 function Home() {
   const navigate = useNavigate();
@@ -35,6 +35,25 @@ function Home() {
       </div>
          <p className="sale">FabulousFits Sale 2024</p>
       <ImageSlider />
+      <div className='accordion'>
+      <Accordion title="10% Off for Students" 
+      content1="1. Create a free Student Beans account."  
+      content2="2. Verify your student status in 2mins."  
+      content3="3. Reveal and enter your code at checkout."  
+      image="https://cdn-icons-png.freepik.com/256/668/668262.png?ga=GA1.1.710497862.1727490035&semt=ais_hybrid" 
+      />
+      <Accordion title="Give $20, Get $20" 
+        content4="1. Invite your friends to FabulousFits."  
+        content5="2. Your friends get $20 off their first purchase."  
+        content6="3. You get $20 for every friend that makes a $50 purchase."  
+      image="https://cdn-icons-png.freepik.com/256/1831/1831669.png?ga=GA1.1.710497862.1727490035&semt=ais_hybrid"
+      />
+      <Accordion title="Free In-App Shipping" 
+      content7="Love FabulousFits?" 
+      content8="You'll love our app!" 
+      image="https://cdn-icons-png.freepik.com/256/411/411763.png?ga=GA1.1.710497862.1727490035&semt=ais_hybrid"
+      />
+    </div>
      < Newsletter />
     <Footer /> 
     </div>
