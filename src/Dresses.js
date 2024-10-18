@@ -12,7 +12,7 @@ function Dresses({itemsForSale}) {
                  <div className="buynow">
                     <button className="btn2">Quick Review</button>
                   </div>
-                    <img src={imageone} width="350px" height="500px" alt="clothes" />
+                    <img src={imageone} width="340px" height="500px" alt="clothes" />
                <div className="product-info">
                 <div className="marginStar">
                    <h4>{searchTerm} </h4>
