@@ -18,7 +18,7 @@ function App() {
 
  return ( <Router>
      <nav >
-      <Link to="/fabulousfits"  className="logo">FabulousFits</Link> 
+      <Link to="/#"  className="logo">FabulousFits</Link> 
       <Link to="/home" className='link' >Home</Link>
        <Link to="/newcollection" className='link' >New Collection</Link>
       <Link to="/contactus" className='link' >Contact Us</Link>

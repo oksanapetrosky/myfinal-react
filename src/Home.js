@@ -4,8 +4,8 @@ import { useNavigate } from 'react-router-dom';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import ImageSlider from "./Carousel";
-// import Newsletter from "./NewsLetter";
-// import Footer from "./Footer";
+import Newsletter from "./NewsLetter";
+import Footer from "./Footer";
 
 
 function Home() {
@@ -35,8 +35,8 @@ function Home() {
       </div>
          <p className="sale">FabulousFits Sale 2024</p>
       <ImageSlider />
-     {/* < Newsletter />
-    <Footer /> */}
+     < Newsletter />
+    <Footer />
     </div>
     )
 }
