@@ -6,14 +6,10 @@ import "slick-carousel/slick/slick-theme.css";
 import ImageSlider from "./Carousel";
 import Newsletter from "./NewsLetter";
 import Footer from "./Footer";
-<<<<<<< HEAD
+
 import React from 'react';
 import Accordion from './Accordion'; 
 
-
-=======
-import Accordion from './Accordion'; 
->>>>>>> 6472cc9d466721c57722d42b555b9f2812be8d47
 
 function Home() {
   const navigate = useNavigate();
@@ -62,11 +58,9 @@ function Home() {
       />
     </div>
      < Newsletter />
-<<<<<<< HEAD
-    <Footer />
-=======
+
     <Footer /> 
->>>>>>> 6472cc9d466721c57722d42b555b9f2812be8d47
+
     </div>
     )
 }
