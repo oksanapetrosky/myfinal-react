@@ -33,4 +33,8 @@ const Accordion = ({ title, content1, content2, content3, content4, content5, co
   );
 };
 
+<<<<<<< HEAD
 export default Accordion;
+=======
+export default Accordion;
+>>>>>>> 6472cc9d466721c57722d42b555b9f2812be8d47
