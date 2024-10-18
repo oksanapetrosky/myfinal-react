@@ -351,8 +351,8 @@ const InputBox = ({ type, placeholder, name }) => {
       />
     </div>
   );
-<<<<<<< HEAD
+
 };
-=======
+
 };
->>>>>>> 6472cc9d466721c57722d42b555b9f2812be8d47
+
