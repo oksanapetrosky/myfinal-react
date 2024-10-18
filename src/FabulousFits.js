@@ -1,7 +1,9 @@
+import Home from "./Home";
+
 function FabulousFits() {
     return(
         <div>
-            Hello!
+            <Home />
         </div>
     )
 }
