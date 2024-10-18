@@ -354,5 +354,4 @@ const InputBox = ({ type, placeholder, name }) => {
 
 };
 
-};
 
