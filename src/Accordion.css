@@ -9,8 +9,9 @@
     justify-content: space-between;
     padding: 30px;
     cursor: pointer;
-    background-color: #ac325b;
+    background: linear-gradient(to left, #E798AE, #F06292, #E798AE, #F06292, #E798AE);
     font-family: "Montserrat", sans-serif;
+   
   }
   
   .accordion-content {
@@ -27,11 +28,20 @@
     justify-content: center;
     border: none;
     margin-top: 20px;
-
   }
+
   .accordion-icon {
     width: 40px; 
     height: 40px;
     margin-right: 10px;
   }
 
+  @media screen and (max-width: 600px) {
+    .accordion {
+     display: flex;
+     flex-direction: column;
+     width: 600px;
+     margin-left: 30px;
+    }
+  
+    }
